@@ -5,7 +5,7 @@ let dev = process.env.NODE_ENV == "development";
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
-dev ? liveServer.start({ file: "/build/index.html" }) : false;
+dev ? liveServer.start({ file: "index.html" }) : false;
 
 module.exports = {
   watch: dev,
@@ -49,6 +49,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
+  },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: "./",
+    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
