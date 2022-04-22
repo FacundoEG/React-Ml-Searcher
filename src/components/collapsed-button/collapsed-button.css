@@ -1,0 +1,47 @@
+.item {
+  width: 24px;
+  display: none;
+  object-fit: cover;
+}
+
+.fab {
+  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 35%);
+  margin: 20px;
+  height: 50px;
+  width: 52px;
+  background-color: #fff159;
+  display: flex;
+  padding: 12px 14px 10px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: width 300ms ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+@media (min-width: 900px) {
+  .fab {
+    position: relative;
+    margin: 40px 0px 0px;
+  }
+}
+
+.fab:hover {
+  width: 228px;
+}
+
+.plus {
+  transition: transform 200ms;
+  height: 24px;
+}
+
+.fab:hover .plus {
+  transform: rotate(45deg);
+}
+
+.fab:hover .item {
+  display: inline;
+}

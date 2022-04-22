@@ -1,0 +1,18 @@
+.logo > img {
+  height: 130px;
+  max-width: 200px;
+  transition: all 400ms ease-in;
+}
+
+@media (min-width: 900px) {
+  .logo > img {
+    height: 150px;
+    max-width: 220px;
+    transition: all 400ms ease-in;
+  }
+}
+
+.logo img:hover {
+  margin: 0px 20px;
+  transform: scale(1.1);
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 12px 5px;
+  background-color: #fff159;
+  box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+}
+
+.nav-logo {
+  background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png);
+  height: 34px;
+  top: 11px;
+  width: 54px;
+}
+
+@media (min-width: 520px) {
+  .nav-logo {
+    width: 134px;
+  }
+}
+
+.search-form-label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  margin-left: 8px;
+}
+
+@media (min-width: 500px) {
+  .search-form {
+    padding: 12px 15px;
+  }
+}
+
+@media (min-width: 500px) {
+  .search-form-label {
+    margin-left: 14px;
+  }
+}

@@ -1,0 +1,67 @@
+.home-title {
+  text-align: center;
+  color: #fff159;
+  max-width: 600px;
+  font-size: 40px;
+  letter-spacing: normal;
+  line-height: 1.14;
+  font-weight: 600;
+  text-shadow: rgb(0, 0, 0) 1px 1px 3px;
+  padding: 10px 10px 0px;
+}
+
+.error-title {
+  text-align: center;
+  color: #333;
+  max-width: 600px;
+  font-size: 36px;
+  letter-spacing: normal;
+  line-height: 1.14;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.search-title {
+  margin: 0px 0px 12px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.search-price {
+  margin: 0;
+  color: black;
+  font-size: 22px;
+  font-weight: 450;
+  line-height: 1.25;
+}
+
+.item-title {
+  font-weight: 600;
+  color: black;
+  margin-bottom: 8px;
+  font-size: 22px;
+  word-break: break-word;
+  line-height: 1.18;
+}
+
+.item-price {
+  margin-top: 20px;
+  color: black;
+  line-height: 1;
+  letter-spacing: normal;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.item-description {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 14px;
+  font-weight: 400;
+  white-space: pre-wrap;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0;
+}

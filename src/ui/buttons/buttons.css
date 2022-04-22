@@ -1,0 +1,66 @@
+a {
+  width: 100%;
+}
+
+.search-button {
+  font-family: "Roboto", sans-serif;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/482/482631.png);
+  height: 39px;
+  padding-top: 2px;
+  cursor: pointer;
+  border-radius: 0 2px 2px 0;
+  width: 46px;
+  border: 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  top: 8px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  right: 1px;
+}
+
+.search-button > img {
+  width: 45%;
+  object-fit: contain;
+}
+
+.ml-anchor {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.ml-button {
+  width: 100%;
+  background-color: #3483fa;
+  border-color: transparent;
+  max-width: 320px;
+  border-radius: 6px;
+  height: 48px;
+  padding: 0 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: 600;
+  transition: all 0.2s ease-in;
+}
+
+@media (min-width: 700px) {
+  .ml-button {
+    margin-top: 50%;
+  }
+}
+
+.ml-button:focus {
+  outline: 3px solid #3483fa61;
+}
+
+.ml-button:hover {
+  background-color: #2968c8;
+  border-color: transparent;
+  color: #fff;
+}
