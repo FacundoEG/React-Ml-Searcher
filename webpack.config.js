@@ -2,9 +2,10 @@ const path = require("path");
 const liveServer = require("live-server");
 let dev = process.env.NODE_ENV == "development";
 
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
-dev ? liveServer.start({ file: "index.html" }) : false;
+dev ? liveServer.start({ file: "/build/index.html" }) : false;
 
 module.exports = {
   watch: dev,
@@ -49,4 +50,9 @@ module.exports = {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve("./index.html"),
+    }),
+  ],
 };
