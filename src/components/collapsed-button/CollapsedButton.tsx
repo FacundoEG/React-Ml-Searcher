@@ -20,10 +20,7 @@ export const CollapsedButton = () => {
           className={css.item}
         />
       </a>
-      <a
-        href="https://github.com/FacundoEG/React-Ml-Searcher/raw/main/src/download/CV%20DEV%20Facundo%20Gra%C3%B1a.pdf"
-        download
-      >
+      <a href="https://fv9-4.failiem.lv/down.php?i=a8z6ymmqj">
         <img
           src="https://cdn-icons-png.flaticon.com/512/909/909263.png"
           className={css.item}
