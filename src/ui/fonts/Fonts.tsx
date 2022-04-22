@@ -5,6 +5,10 @@ export function HomeTitle({ children }) {
   return <h1 className={css["home-title"]}>{children}</h1>;
 }
 
+export function SemiBold({ children }) {
+  return <p className={css["bold"]}>{children}</p>;
+}
+
 export function ErrorTitle({ children }) {
   return <h1 className={css["error-title"]}>{children}</h1>;
 }

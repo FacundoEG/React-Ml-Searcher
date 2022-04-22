@@ -13,6 +13,7 @@ export const Item = () => {
         <ResultItem
           key={itemResult.id}
           sold={itemResult["sold_quantity"]}
+          atribute={itemResult.attributes[0]["value_name"]}
           price={itemResult.price}
           condition={itemResult.condition}
           permalink={itemResult.permalink}

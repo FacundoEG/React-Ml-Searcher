@@ -49,12 +49,6 @@ a {
   transition: all 0.2s ease-in;
 }
 
-@media (min-width: 700px) {
-  .ml-button {
-    margin-top: 50%;
-  }
-}
-
 .ml-button:focus {
   outline: 3px solid #3483fa61;
 }
