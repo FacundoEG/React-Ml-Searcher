@@ -7,7 +7,7 @@ import { HomeTitle } from "ui/fonts/Fonts";
 export const App = () => {
   return (
     <div className={css["home-container"]}>
-      <div className="home-container__presentation">
+      <div className={css["home-container__presentation"]}>
         <div>
           <HomeTitle>Buscador de Mercadolibre by Facundo Graña</HomeTitle>
         </div>

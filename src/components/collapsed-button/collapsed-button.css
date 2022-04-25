@@ -7,6 +7,7 @@
 .fab {
   box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 35%);
   margin: 20px;
+  min-height: 50px;
   height: 50px;
   width: 52px;
   background-color: #fff159;
@@ -25,7 +26,7 @@
 @media (min-width: 900px) {
   .fab {
     position: relative;
-    margin: 40px 0px 0px;
+    margin: 20px 0px 0px;
   }
 }
 

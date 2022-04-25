@@ -32,13 +32,14 @@ a {
   width: 100%;
   background-color: #3483fa;
   border-color: transparent;
-  max-width: 320px;
   border-radius: 6px;
   height: 48px;
   padding: 0 24px;
   margin-top: 20px;
   cursor: pointer;
   text-decoration: none;
+
+  font-family: "Montserrat", sans-serif;
   color: inherit;
   color: #fff;
   display: inline-block;

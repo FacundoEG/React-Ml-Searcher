@@ -24,7 +24,7 @@ export const Search = () => {
               />
             ))
           ) : (
-            <div className={css["results-container"]}>
+            <div className={css["error-container"]}>
               <ErrorTitle>
                 Ups.. no hemos encontrado ningun resultado con el nombre de tu
                 busqueda

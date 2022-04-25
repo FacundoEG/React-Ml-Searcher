@@ -5,9 +5,12 @@
   max-width: 800px;
   width: 100%;
   border-radius: 4px;
+  gap: 20px;
   padding: 15px;
   background-color: #fff;
   display: flex;
+
+  flex-direction: column;
   text-decoration: none;
   margin: 30px auto;
 }
@@ -22,9 +25,10 @@
   min-width: 300px;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .result-container {
-    flex-direction: column;
+    gap: 0px;
+    flex-direction: row;
   }
 }
 
