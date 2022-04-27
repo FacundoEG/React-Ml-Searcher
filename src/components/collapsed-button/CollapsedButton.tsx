@@ -20,7 +20,7 @@ export const CollapsedButton = () => {
           className={css.item}
         />
       </a>
-      <a href="https://fv9-4.failiem.lv/down.php?i=a8z6ymmqj">
+      <a href="https://files.fm/down.php?i=mxxzpwd7g">
         <img
           src="https://cdn-icons-png.flaticon.com/512/909/909263.png"
           className={css.item}
